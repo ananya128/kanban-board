@@ -57,7 +57,7 @@ const App = () => {
         </label>
       </div>
       <AddTask addTask={addTask} />
-      <Board columns={columns} emptyTrash={emptyTrash} />
+      <Board columns={columns} setColumns={setColumns} emptyTrash={emptyTrash} />
       <Footer />
     </div>
   );

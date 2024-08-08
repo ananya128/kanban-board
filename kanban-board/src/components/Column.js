@@ -20,3 +20,4 @@ const Column = ({ column, emptyTrash }) => (
 );
 
 export default Column;
+
